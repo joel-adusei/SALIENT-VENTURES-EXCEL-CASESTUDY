@@ -88,22 +88,28 @@ Below are the exact tasks, formulas, and screenshot targets
 
    Action: Use remove Duplicates from the Data Section in Excel.
    
-3. Handled missing values
+2. Handled missing values
 
     Missing values from the customers table were handled by removing them.
 
-4. Using XLOOKUP, I merged the customers and Products Table with the Orders table for easy analysis.
-
-5. Converted range to an Excel Table
+3. Converted range to an Excel Table
 
     Action: Select the range and press Ctrl+T → name the table CleanTable. This enables structured references and slicer connectivity for the dashboard.
 
-6. Created Expenses and Revenue Columns
+4. Standardize Text Columns
+
+   Applied TRIM() to normalize text for CustomerName and City columns.
+
+
+5. Created Expenses and Revenue Columns
 
    Expenses
 
 
    Revenue
+
+6. Using XLOOKUP, I merged the customers and Products Table with the Orders table for easy analysis.
+
 
 7. Format Columns for Consistency
 - Applied date formatting (dd-mm-yyyy) for Order Date.
@@ -111,11 +117,11 @@ Below are the exact tasks, formulas, and screenshot targets
 
 
 
-Correcting data types
-Validating transaction records
-Standardizing category labels
+
 
 This ensured consistency before analysis and dashboard development.
+
+
 
 STEP 2: Data Analysis Using Pivot Tables
 
