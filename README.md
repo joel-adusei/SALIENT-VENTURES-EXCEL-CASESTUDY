@@ -7,6 +7,7 @@
 
 ***Disclaimer⚠️:** All datasets, slides and reports do not contain real proprietary, confidential, or sensitive information from any company, institution, or individual mention. All info are dummy and design to demonstrate my capabilities of using PowerBI to perform advance analysis on healthcare dataset*
 
+![image]()
 
 ## INTRODUCTION
 
@@ -75,6 +76,13 @@ Financial Information	Selling Price, Cost Price
 Employee Information	SalesPerson
 
 
+
+![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/rawdata.JPG?raw=true)
+
+Initial raw data before cleanup and transformations
+
+
+
 ## METHODOLOGY
 STEP 1: Data Cleaning & Preparation
 
@@ -87,31 +95,51 @@ Below are the exact tasks, formulas, and screenshot targets
    using their respective primary keys; OrderID, CustomerID and ProductID respectively.
 
    Action: Use remove Duplicates from the Data Section in Excel.
+
+   ![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/remove%20duplicates.JPG?raw=true)
+
+
+   ![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/duplicates%20found.JPG?raw=true)
+
    
-2. Handled missing values
+   
+3. Handled missing values
 
     Missing values from the customers table were handled by removing them.
 
-3. Converted range to an Excel Table
+4. Converted range to an Excel Table
 
     Action: Select the range and press Ctrl+T → name the table CleanTable. This enables structured references and slicer connectivity for the dashboard.
+   
 
-4. Standardize Text Columns
+6. Standardize Text Columns
 
    Applied TRIM() to normalize text for CustomerName and City columns.
 
+   ![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/standardize.JPG?raw=true)
 
-5. Created Expenses and Revenue Columns
+
+7. Created Expenses and Revenue Columns
+   
 
    Expenses
+
+![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/Expenses.JPG?raw=true)
 
 
    Revenue
 
-6. Using XLOOKUP, I merged the customers and Products Table with the Orders table for easy analysis.
+![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/Revenue.JPG?raw=true)
 
 
-7. Format Columns for Consistency
+8. Using XLOOKUP, I merged the customers and Products Table with the Orders table for easy analysis.
+   
+
+![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/Xlookup.JPG?raw=true)
+
+
+
+9. Format Columns for Consistency
 - Applied date formatting (dd-mm-yyyy) for Order Date.
 - Applied number formatting for Expenses and Revenue fields ($ currency).
 
@@ -147,7 +175,17 @@ Revenue by Age Group
 Regional Analysis
 Profit by State
 City-Level Profitability
-STEP 3: Data Visualization
+
+
+![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/pivot.JPG?raw=true)
+
+
+
+
+STEP 3: DASHBOARD
+
+![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Sales_Analysis_Dashboard.JPG?raw=true)
+
 
 Interactive charts were developed to transform summarized data into actionable business insights.
 
