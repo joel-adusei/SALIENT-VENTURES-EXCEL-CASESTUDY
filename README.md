@@ -23,18 +23,25 @@ Following the implementation of these initiatives, management submitted the comp
 
 This project leverages Microsoft Excel's advanced analytics capabilities to assess the effectiveness of the intervention and provide actionable recommendations for 2026 planning.
 
+
+
 ## BUSINESS PROBLEM
 
 Although transaction volume increased significantly during Q4 2025, management lacked sufficient visibility into the underlying drivers of growth.
 
-Key concerns included:
+**Key concerns included:**
 
 Was the increase in sales truly profitable?
+
 Which products and customer segments contributed most to recovery?
+
 Did regional marketing efforts generate meaningful returns?
+
 Was customer engagement improving or simply generating short-term activity?
 
 Without data-driven answers, leadership could not confidently approve strategic investments for the 2026 fiscal year.
+
+
 
 ## PROJECT OBJECTIVES
 
@@ -42,24 +49,46 @@ The primary objective of this analysis was to determine whether SALIENT Ventures
 
 Specifically, the project aimed to:
 
-1. Evaluate Sales Performance
-Calculate Total Revenue
-Calculate Total Expenses
-Calculate Total Profit
-Determine Profit Margin
-Analyze weekly revenue and profit trends throughout Q4
-2. Validate the Turnaround Strategy
-Assess whether increased transaction volume translated into profitability
-Identify high-performing products and categories
-Evaluate regional performance after marketing expansion
-3. Understand Customer Behavior
-Identify top revenue-generating customers
-Analyze purchasing patterns by gender
-Evaluate revenue contribution by customer age groups
-4. Support Executive Decision-Making
-Build a dynamic Excel dashboard
-Deliver actionable insights for budgeting and strategic planning
-DATASET OVERVIEW
+**1. Evaluate Sales Performance**
+
+- Calculate Total Revenue
+  
+- Calculate Total Expenses
+
+- Calculate Total Profit
+
+- Determine Profit Margin
+
+- Analyze weekly revenue and profit trends throughout Q4
+
+
+**2. Validate the Turnaround Strategy**
+
+- Assess whether increased transaction volume translated into profitability
+  
+- Identify high-performing products and categories
+  
+- Evaluate regional performance after marketing expansion
+
+
+**3. Understand Customer Behavior**
+
+- Identify top revenue-generating customers
+  
+- Analyze purchasing patterns by gender
+  
+- Evaluate revenue contribution by customer age groups
+  
+
+
+**4. Support Executive Decision-Making**
+
+-Build a dynamic Excel dashboard
+
+-Deliver actionable insights for budgeting and strategic planning
+
+
+## DATASET OVERVIEW
 
 The dataset contains all recorded sales transactions between:
 
@@ -67,8 +96,10 @@ October 1, 2025 – December 31, 2025
 
 The data captures customer activity, product sales, employee performance, and geographic distribution across multiple states.
 
-Key Data Fields
-Category	Attributes
+**Key Data Fields**
+
+- Category	Attributes
+  
 Customer Information	Customer ID, Customer Name, Gender, Age, City
 Transaction Information	Order ID, Order Date, Quantity
 Product Information	Product ID, Product Name, Category
@@ -79,12 +110,15 @@ Employee Information	SalesPerson
 
 ![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/rawdata.JPG?raw=true)
 
+
 Initial raw data before cleanup and transformations
 
 
 
 ## METHODOLOGY
-STEP 1: Data Cleaning & Preparation
+
+
+**STEP 1: Data Cleaning & Preparation**
 
 The dataset was first cleaned and standardized within Microsoft Excel to ensure data quality and analytical accuracy.
 Below are the exact tasks, formulas, and screenshot targets
@@ -151,7 +185,7 @@ This ensured consistency before analysis and dashboard development.
 
 
 
-STEP 2: Data Analysis Using Pivot Tables
+**STEP 2: Data Analysis Using Pivot Tables**
 
 Pivot Tables were used extensively to summarize and analyze business performance.
 
@@ -182,22 +216,16 @@ City-Level Profitability
 
 
 
-STEP 3: DASHBOARD
+**STEP 3: DASHBOARD DEVELOPMENT**
 
 ![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Sales_Analysis_Dashboard.JPG?raw=true)
 
 
 Interactive charts were developed to transform summarized data into actionable business insights.
 
-Visualizations included:
 
-KPI Cards
-Line Charts
-Bar Charts
-Donut Charts
-Geographic Profit Map
-Top-N Product Rankings
-STEP 4: Dashboard Development
+
+**STEP 4: Dashboard Development**
 
 An executive-level dashboard was created in Microsoft Excel to provide a comprehensive view of Q4 performance.
 
@@ -219,7 +247,9 @@ Profit generation
 Customer demographics
 Product profitability
 Regional expansion effectiveness
-DASHBOARD SUMMARY
+
+
+## DASHBOARD SUMMARY
 Key Performance Indicators
 Metric	Value
 Total Revenue	$115M
@@ -363,7 +393,8 @@ The company achieved:
 
 The dashboard provides management with a centralized decision-support tool for monitoring performance and guiding strategic planning for the 2026 fiscal year.
 
-### BUSINESS IMPACT
+
+### CONCLUSION
 
 This analysis identified key profitability drivers, underperforming product lines, seasonal trends, customer concentration risks, and regional growth opportunities, providing actionable insights to support data-driven business decisions.
 
