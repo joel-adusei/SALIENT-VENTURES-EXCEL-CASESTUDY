@@ -1,133 +1,325 @@
-# SALIENT-VENTURES---EXCEL-CASE-STUDY
+# SALIENT VENTURE Q4 SALES ANALYSIS
 
-# AuroraThreadsBoutique-PowerBI-CaseStudy
+## Evaluating the Success of a Strategic Business Turnaround Using Advanced Microsoft Excel Analytics
 
-A business intelligence dashboard project built in Microsoft PowerBI to analyze sales performance, customer behavior, and product trends for Aurora Threads, a high-end fashion boutique.
-
-🔍 Project Overview
-
-    This project transforms raw sales data into an interactive executive dashboard that 
-    provides insights into sales performance, customer behavior, and product trends.
-
-⚠️ Problem Statement
-
-    SALIENT Ventures previously faced a critical period of decline in their sales. Throughout the first three quarters of 2025 (Q1–Q3), the company experienced a
-    consistent 20% quarter-over-quarter decline in revenue, driven by poor inventory management and low customer retention.
-
-📖 Project Objective
-
-    Salient Ventures has requested an analysis of its Q4 2025 transaction data to measure the effectiveness of recent strategic initiatives, 
-    including performance-based employee incentives, inventory diversification, and regional market expansion. 
-    The objective is to determine whether these changes drove measurable improvements 
-    in sales, customer engagement, and overall business performance.
+![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/tim-gouw-KigTvXqetXA-unsplash.jpg?raw=true)
 
 
-👩🏽‍💻 Tools & Skills Used
-
-    Microsoft Excel 
-    Pivot Tables
-    Advanced Formulas
-    Slicers & Interactive Filters 
-
-🏷️ Data Dictionary
-
-    ● Customer ID: Unique identifier for each registered user.
-    ● Customer Name: Full name of the buyer.
-    ● City: The location of the customer.
-    ● Gender: The biological sex of the customer
-    (Male/Female), used for affinity analysis.
-    ● Customer Age: The age of the customer
-    ● OrderID: Unique identifier for each individual
-    transaction.
-    ● Order Date: The specific date the transaction
-    occurred (Oct 1 – Dec 31, 2025).
-    ● Quantity: The number of units purchased in a single
-    ● Selling Price: The price each unit is sold for.
-    ● Cost Price: The cost to purchase each item
-    ● Product ID: Unique identifier for each item in the
-    catalog.
-    ● Product Name: The specific commercial name of the
-    item (e.g., Yoga Mat, Microwave).
-    ● Category: The broader classification of the product
-    (Gym, Sports, Clothing, Accessories, Electronics, Toys).
-    ● SalesPerson: The first name of the staff
-    member.
+***Disclaimer⚠️:** All datasets, slides and reports do not contain real proprietary, confidential, or sensitive information from any company, institution, or individual mention. All info are dummy and design to demonstrate my capabilities of using PowerBI to perform advance analysis on healthcare dataset*
 
 
+## INTRODUCTION
 
-📊 Key Dashboards
+SALIENT Ventures experienced a significant business downturn throughout the first three quarters of 2025, recording a consistent 20% quarter-over-quarter decline in revenue. The decline was largely attributed to poor inventory management, weak customer retention, and limited market penetration.
 
-    1.	KPIs (Total Revenue,Total Expenses, Total Profit, Total Products, Profit Margin) 
-    2.	Profit by Weeks
-    3.	Profit by Gender
-    4.  Profit by Product Category
-    5.  Top 10 Products by Profit
-    6. Top 5 Customers by Profit
-    7. Profit by AgeGroup etc.
+To reverse this trend, the company's Board of Directors engaged the 10Alytics Team to implement a strategic recovery plan focused on:
+
+Performance-based employee incentives
+Inventory diversification into high-affinity product categories
+Aggressive regional marketing expansion
+
+Following the implementation of these initiatives, management submitted the company's Q4 2025 transaction dataset to evaluate whether the turnaround strategy delivered measurable business improvement.
+
+This project leverages Microsoft Excel's advanced analytics capabilities to assess the effectiveness of the intervention and provide actionable recommendations for 2026 planning.
+
+## BUSINESS PROBLEM
+
+Although transaction volume increased significantly during Q4 2025, management lacked sufficient visibility into the underlying drivers of growth.
+
+Key concerns included:
+
+Was the increase in sales truly profitable?
+Which products and customer segments contributed most to recovery?
+Did regional marketing efforts generate meaningful returns?
+Was customer engagement improving or simply generating short-term activity?
+
+Without data-driven answers, leadership could not confidently approve strategic investments for the 2026 fiscal year.
+
+## PROJECT OBJECTIVES
+
+The primary objective of this analysis was to determine whether SALIENT Ventures' Q4 recovery strategy resulted in sustainable business growth.
+
+Specifically, the project aimed to:
+
+1. Evaluate Sales Performance
+Calculate Total Revenue
+Calculate Total Expenses
+Calculate Total Profit
+Determine Profit Margin
+Analyze weekly revenue and profit trends throughout Q4
+2. Validate the Turnaround Strategy
+Assess whether increased transaction volume translated into profitability
+Identify high-performing products and categories
+Evaluate regional performance after marketing expansion
+3. Understand Customer Behavior
+Identify top revenue-generating customers
+Analyze purchasing patterns by gender
+Evaluate revenue contribution by customer age groups
+4. Support Executive Decision-Making
+Build a dynamic Excel dashboard
+Deliver actionable insights for budgeting and strategic planning
+DATASET OVERVIEW
+
+The dataset contains all recorded sales transactions between:
+
+October 1, 2025 – December 31, 2025
+
+The data captures customer activity, product sales, employee performance, and geographic distribution across multiple states.
+
+Key Data Fields
+Category	Attributes
+Customer Information	Customer ID, Customer Name, Gender, Age, City
+Transaction Information	Order ID, Order Date, Quantity
+Product Information	Product ID, Product Name, Category
+Financial Information	Selling Price, Cost Price
+Employee Information	SalesPerson
+
+
+## METHODOLOGY
+STEP 1: Data Cleaning & Preparation
+
+The dataset was first cleaned and standardized within Microsoft Excel to ensure data quality and analytical accuracy.
+Below are the exact tasks, formulas, and screenshot targets
+
+1. Removed duplicates
    
+   The dataset was made up of three different tables (Orders, Customers and Products). Duplicated values were removed from each table
+   using their respective primary keys; OrderID, CustomerID and ProductID respectively.
 
-📌 Highlights
+   Action: Use remove Duplicates from the Data Section in Excel.
+   
+3. Handled missing values
 
-    $115M Total Revenue
-    $98M Total Expenses 
-    $17M Total Profit 
-    34 Total Products
-    15% Profit Margin
+    Missing values from the customers table were handled by removing them.
 
-📈 Key Insights Generated
+4. Using XLOOKUP, I merged the customers and Products Table with the Orders table for easy analysis.
 
-      ## Revenue & Profitability Performance
-  
-    •	The positive profit margin indicates that the Q4 recovery strategy contributed to improved financial 
-    performance after the revenue decline experienced in earlier quarters.
-  
-    ## Weekly Profit Trends
-    
-    •	Profit performance fluctuated across Weeks 40–53, with the highest profit recorded around Weeks 47 and 51, exceeding $1.6M.
-    •	Profit declined sharply in Week 53, suggesting possible seasonal slowdown or increased end-of-quarter operational costs.
-  
-    ## Product Category Performance
-    
-    •	Accessories generated the highest profit contribution at approximately $4.06M, making it the strongest-performing category.
-    •	Games and Gym products also performed strongly, supporting the company’s diversification strategy into high-affinity lifestyle categories.
-    •	Electronics recorded the lowest category profit, indicating weaker profitability or higher associated costs.
-  
-    ## Customer & Market Insights
-    
-    •	The top-performing customers each contributed over $2.4M in profit, highlighting the importance of customer retention and high-value buyers.
-    •	Female customers contributed slightly higher profit ($9.25M) compared to male customers ($7.96M), suggesting stronger engagement from the female market segment.
-    Younger customers generated significantly more profit than older customers, indicating that younger demographics are the company’s primary revenue drivers.
-  
-    ## Geographic Performance
-    
-    •	Texas delivered the highest state-level profit contribution at approximately $6K, followed by Washington and Florida.
-    •	The geographic spread of profitable states suggests that the aggressive regional marketing strategy helped expand market penetration beyond California.
-  
-    ## Product Performance
-    
-    •	Gold Bracelets emerged as the top-performing product in both profit and quantity sold, making it the company’s most successful item in Q4.
-    •	Other strong-performing products included Yoga Mats, Kids Games, Gym Gloves, and Badminton Rackets, confirming growing customer interest in fitness and lifestyle-related products.
+5. Converted range to an Excel Table
 
-💡 Recommendations
+    Action: Select the range and press Ctrl+T → name the table CleanTable. This enables structured references and slicer connectivity for the dashboard.
 
-    1. Strengthen Cost and Inventory Management
-    2. Focus on High-Performing Product Categories
-    3. Enhance Customer Retention Strategies
-    4. Expand Regional Market Penetration
-    5. Improve Profit Sustainability
+6. Created Expenses and Revenue Columns
 
-✅ Conclusion
-  
-    The dashboard analysis shows that SALIENT Ventures experienced a strong recovery in Q4 2025 following the implementation of the strategic recommendations. 
-    The company generated $115M in revenue and   achieved a $17M profit with a 17% profit margin, indicating that the turnaround strategy positively impacted business performance.
+   Expenses
 
 
- 
-🪄 Created by
+   Revenue
 
-Joel Adusei
-Data Analyst & Data Scientist
+7. Format Columns for Consistency
+- Applied date formatting (dd-mm-yyyy) for Order Date.
+- Applied number formatting for Expenses and Revenue fields ($ currency).
 
 
 
+Correcting data types
+Validating transaction records
+Standardizing category labels
+
+This ensured consistency before analysis and dashboard development.
+
+STEP 2: Data Analysis Using Pivot Tables
+
+Pivot Tables were used extensively to summarize and analyze business performance.
+
+The analysis focused on:
+
+Sales Performance
+Total Revenue
+Total Expenses
+Total Profit
+Profit Margin
+Weekly Revenue Trends
+Weekly Profit Trends
+Product Performance
+Top 10 Products by Profit
+Profit by Product Category
+Top 5 Products by Quantity Sold
+Customer Insights
+Top 5 Customers by Revenue
+Revenue by Gender
+Revenue by Age Group
+Regional Analysis
+Profit by State
+City-Level Profitability
+STEP 3: Data Visualization
+
+Interactive charts were developed to transform summarized data into actionable business insights.
+
+Visualizations included:
+
+KPI Cards
+Line Charts
+Bar Charts
+Donut Charts
+Geographic Profit Map
+Top-N Product Rankings
+STEP 4: Dashboard Development
+
+An executive-level dashboard was created in Microsoft Excel to provide a comprehensive view of Q4 performance.
+
+Dashboard Features
+Month Filters
+Product Category Filters
+State Filters
+Profit Trend Analysis
+Customer Segmentation Analysis
+Geographic Performance Tracking
+Product Profitability Monitoring
+Dashboard Overview
+
+The dashboard provides visibility into:
+
+Revenue performance
+Expense management
+Profit generation
+Customer demographics
+Product profitability
+Regional expansion effectiveness
+DASHBOARD SUMMARY
+Key Performance Indicators
+Metric	Value
+Total Revenue	$115M
+Total Expenses	$98M
+Total Profit	$17M
+Total Products	34
+Profit Margin	15%
+
+These figures indicate a substantial improvement from previous quarters and suggest the turnaround initiatives generated positive financial outcomes.
+
+## KEY INSIGHTS
+1. Sales Recovery Was Successful
+
+SALIENT Ventures generated:
+
+$115M Revenue
+$17M Profit
+15% Profit Margin
+
+The company successfully reversed its declining revenue trend and returned to profitable growth during Q4.
+
+2. Product Diversification Delivered Results
+Most Profitable Categories
+Category	Profit
+Accessories	$4.06M
+Games	$3.07M
+Gym	$2.86M
+Sports	$2.58M
+Clothing	$2.45M
+Electronics	$2.21M
+
+The newly expanded categories significantly contributed to overall profitability, validating the inventory diversification strategy.
+
+3. High-Affinity Products Drove Growth
+Top Profit-Generating Products
+Gold Bracelets
+Yoga Mat
+Kids Games
+Gold Rings
+Gym Gloves
+
+These products generated the highest profit contributions and align directly with the strategic recommendation to expand into gym and lifestyle categories.
+
+4. Customer Demographics Reveal Key Buyers
+Revenue by Gender
+Female Customers: $9.25M Profit Contribution
+Male Customers: $7.93M Profit Contribution
+
+Female customers contributed slightly more profit, suggesting stronger purchasing engagement.
+
+Revenue by Age Group
+Young Adults (18–35): $7.49M
+Older Adults (36–55): $9.78M
+
+Older customers generated the highest revenue and represent the most valuable customer segment.
+
+5. Regional Marketing Expansion Produced Positive Results
+
+The profit distribution map highlights strong performance across key states including:
+
+California
+Texas
+Illinois
+Georgia
+Washington
+
+This suggests regional marketing efforts successfully expanded market reach beyond traditional territories.
+
+6. Strong Weekly Profit Trends
+
+Profit remained consistently above $0.8M throughout Q4 and peaked multiple times above $1.5M.
+
+This indicates sustained business performance rather than a short-lived sales spike.
+
+7. Customer Concentration Remains Important
+
+The top five customers each generated over $2.4M in revenue.
+
+This presents opportunities for:
+
+VIP retention programs
+Personalized offers
+Strategic account management
+
+
+## RECOMMENDATIONS
+Expand High-Performing Categories
+
+Increase inventory investment in:
+
+Accessories
+Gym Products
+Games
+Sports Equipment
+
+These categories generated the strongest profitability.
+
+Strengthen Customer Retention Programs
+
+Develop:
+
+Loyalty rewards
+Personalized promotions
+VIP customer programs
+
+to retain top-value customers.
+
+Scale Regional Marketing Efforts
+
+Increase marketing spend in high-performing states while replicating successful campaigns in emerging markets.
+
+Optimize Product Portfolio
+
+Reduce focus on lower-performing products and prioritize inventory allocation toward high-margin categories.
+
+Leverage Demographic Insights
+
+Design targeted campaigns for:
+
+Female shoppers
+Customers aged 36–55
+
+who currently generate the highest value.
+
+
+## BUSINESS IMPACT
+
+This analysis demonstrates that SALIENT Ventures' Q4 strategic turnaround was successful.
+
+The company achieved:
+
+✅ Revenue growth recovery
+
+✅ Improved profitability
+
+✅ Strong category diversification
+
+✅ Expanded regional penetration
+
+✅ Enhanced customer engagement
+
+The dashboard provides management with a centralized decision-support tool for monitoring performance and guiding strategic planning for the 2026 fiscal year.
+
+### BUSINESS IMPACT
+
+This analysis identified key profitability drivers, underperforming product lines, seasonal trends, customer concentration risks, and regional growth opportunities, providing actionable insights to support data-driven business decisions.
 
