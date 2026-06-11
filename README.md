@@ -2,12 +2,12 @@
 
 ## Evaluating the Success of a Strategic Business Turnaround Using Advanced Microsoft Excel Analytics
 
-![image](https://github.com/joel-adusei/DeskifyOfficeSupply-PowerBI-CaseStudy/blob/main/images/tim-gouw-KigTvXqetXA-unsplash.jpg?raw=true)
+![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/group-people-working-out-business-plan-office.jpg?raw=true)
 
 
 ***Disclaimer⚠️:** All datasets, slides and reports do not contain real proprietary, confidential, or sensitive information from any company, institution, or individual mention. All info are dummy and design to demonstrate my capabilities of using PowerBI to perform advance analysis on healthcare dataset*
 
-![image]()
+
 
 ## INTRODUCTION
 
@@ -216,16 +216,18 @@ City-Level Profitability
 
 
 
+
+
 **STEP 3: DASHBOARD DEVELOPMENT**
+
+
 
 ![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Sales_Analysis_Dashboard.JPG?raw=true)
 
 
-Interactive charts were developed to transform summarized data into actionable business insights.
 
 
 
-**STEP 4: Dashboard Development**
 
 An executive-level dashboard was created in Microsoft Excel to provide a comprehensive view of Q4 performance.
 
@@ -394,7 +396,7 @@ The company achieved:
 The dashboard provides management with a centralized decision-support tool for monitoring performance and guiding strategic planning for the 2026 fiscal year.
 
 
-### CONCLUSION
+## CONCLUSION
 
 This analysis identified key profitability drivers, underperforming product lines, seasonal trends, customer concentration risks, and regional growth opportunities, providing actionable insights to support data-driven business decisions.
 
