@@ -188,26 +188,12 @@ This ensured consistency before analysis and dashboard development.
 
 Pivot Tables were used extensively to summarize and analyze business performance.
 
-The analysis focused on:
+Some of the analysis focused on:
 
- - Sales Performance
- - Total Revenue
- - Total Expenses
- - Total Profit
- - Profit Margin
- - Weekly Revenue Trends
- - Weekly Profit Trends
+ - Key KPIs
  - Product Performance
- - Top 10 Products by Profit
- - Profit by Product Category
- - Top 5 Products by Quantity Sold
  - Customer Insights
- - Top 5 Customers by Revenue
- - Revenue by Gender
- - Revenue by Age Group
- - Regional Analysis
- - Profit by State
- - City-Level Profitability
+ 
 
 
 ![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/pivot.JPG?raw=true)
@@ -220,6 +206,9 @@ The analysis focused on:
 **STEP 3: DASHBOARD DEVELOPMENT**
 
 
+An executive-level dashboard was created in Microsoft Excel to provide a comprehensive view of Q4 performance. The dashboard provides visibility into:
+Revenue performance, Expense management, Profit generation, Customer demographics, Product profitability, and Regional expansion effectiveness.
+
 
 ![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Sales_Analysis_Dashboard.JPG?raw=true)
 
@@ -227,39 +216,6 @@ The analysis focused on:
 
 
 
-
-An executive-level dashboard was created in Microsoft Excel to provide a comprehensive view of Q4 performance.
-
-Dashboard Features
-Month Filters
-Product Category Filters
-State Filters
-Profit Trend Analysis
-Customer Segmentation Analysis
-Geographic Performance Tracking
-Product Profitability Monitoring
-Dashboard Overview
-
-The dashboard provides visibility into:
-
-Revenue performance
-Expense management
-Profit generation
-Customer demographics
-Product profitability
-Regional expansion effectiveness
-
-
-## DASHBOARD SUMMARY
-Key Performance Indicators
-Metric	Value
-Total Revenue	$115M
-Total Expenses	$98M
-Total Profit	$17M
-Total Products	34
-Profit Margin	15%
-
-These figures indicate a substantial improvement from previous quarters and suggest the turnaround initiatives generated positive financial outcomes.
 
 ## KEY INSIGHTS
 1. Sales Recovery Was Successful
@@ -271,6 +227,8 @@ $17M Profit
 15% Profit Margin
 
 The company successfully reversed its declining revenue trend and returned to profitable growth during Q4.
+The figures above indicate a substantial improvement from previous quarters and suggest the turnaround initiatives generated positive financial outcomes.
+
 
 2. Product Diversification Delivered Results
 Most Profitable Categories
