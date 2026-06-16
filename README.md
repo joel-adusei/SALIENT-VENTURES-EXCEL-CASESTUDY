@@ -99,14 +99,13 @@ The data captures customer activity, product sales, employee performance, and ge
 **Key Data Fields**
 
 - Data Description
-
-Transaction Information:	Order ID, Order Date, Quantity
   
-Customer Information:	Customer ID, Customer Name, Gender, Age, City
+Order Table:	Order ID, Order Date, Quantity...
+  
+Customer Table:	Customer ID, Customer Name, Gender, Age, City...
 
-Product Information:	Product ID, Product Name, Category
+Product Table:	Product ID, Product Name, Category...
 
-Financial Information:	Selling Price, Cost Price
 
 
 
