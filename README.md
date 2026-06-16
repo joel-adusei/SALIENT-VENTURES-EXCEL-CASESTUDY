@@ -83,9 +83,9 @@ Specifically, the project aimed to:
 
 **4. Support Executive Decision-Making**
 
--Build a dynamic Excel dashboard
+- Build a dynamic Excel dashboard
 
--Deliver actionable insights for budgeting and strategic planning
+- Deliver actionable insights for budgeting and strategic planning
 
 
 ## DATASET OVERVIEW
