@@ -13,7 +13,7 @@
 
 SALIENT Ventures experienced a significant business downturn throughout the first three quarters (Q1 - Q3) of 2025, recording a consistent 20% quarter-over-quarter decline in revenue. The decline was largely attributed to poor inventory management, weak customer retention, and limited market penetration.
 
-To reverse this trend, the company's Board of Directors engaged the 10Alytics Team to implement a strategic recovery plan focused on:
+To reverse this trend, the company's Board of Directors engaged me to implement a strategic recovery plan focused on:
 
 Performance-based employee incentives
 Inventory diversification into high-affinity product categories
