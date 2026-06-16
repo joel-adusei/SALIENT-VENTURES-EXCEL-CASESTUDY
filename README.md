@@ -127,7 +127,7 @@ Below are the exact tasks, formulas, and screenshot targets
 The dataset was made up of three different tables (Orders, Customers, and Products). Duplicated values were removed from 
 each table using their respective primary keys: OrderID, CustomerID, and ProductID, respectively.
 
-Action: Use remove Duplicates from the Data Section in Excel.
+Action: Use "Remove Duplicates" from the Data Tab in Excel.
 
 ![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/remove%20duplicates.JPG?raw=true)
 
