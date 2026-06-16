@@ -11,7 +11,7 @@
 
 ## INTRODUCTION
 
-SALIENT Ventures, a fictional US company headquartered in California, experienced a significant business downturn throughout the first three quarters (Q1 - Q3) of 2025, recording a consistent 20% quarter-over-quarter decline in revenue. The decline was largely attributed to poor inventory management, weak customer retention, and limited market penetration.
+SALIENT Ventures, a fictional U.S. company headquartered in California, experienced a significant business downturn throughout the first three quarters (Q1–Q3) of 2025, recording a consistent 20% quarter-over-quarter decline in revenue. This decline is reflected in the drop from **$107.5 million in Q2** to **$87.6 million in Q3**, and was largely attributed to poor inventory management, weak customer retention, and limited market penetration.
 
 To reverse this trend, the company's Board of Directors engaged me to implement a strategic recovery plan focused on:
 
@@ -223,7 +223,9 @@ Revenue performance, Expense management, Profit generation, Customer demographic
 SALIENT Ventures generated:
 
 $115M Revenue
+
 $17M Profit
+
 15% Profit Margin
 
 The company successfully reversed its declining revenue trend and returned to profitable growth during Q4.
@@ -231,57 +233,84 @@ The figures above indicate a substantial improvement from previous quarters and 
 
 
 2. Product Diversification Delivered Results
-Most Profitable Categories
-Category	Profit
+   
+Most Profitable Categories:
+
+
 Accessories	$4.06M
+
 Games	$3.07M
+
 Gym	$2.86M
+
 Sports	$2.58M
+
 Clothing	$2.45M
+
 Electronics	$2.21M
 
 The newly expanded categories significantly contributed to overall profitability, validating the inventory diversification strategy.
 
 3. High-Affinity Products Drove Growth
-Top Profit-Generating Products
+
+Top Profit-Generating Products:
+
 Gold Bracelets
+
 Yoga Mat
+
 Kids Games
+
 Gold Rings
+
 Gym Gloves
 
 These products generated the highest profit contributions and align directly with the strategic recommendation to expand into gym and lifestyle categories.
 
+
 4. Customer Demographics Reveal Key Buyers
+
 Revenue by Gender
+
 Female Customers: $9.25M Profit Contribution
+
 Male Customers: $7.93M Profit Contribution
 
 Female customers contributed slightly more profit, suggesting stronger purchasing engagement.
 
-Revenue by Age Group
+
+5. Revenue by Age Group
+
 Young Adults (18–35): $7.49M
+
 Older Adults (36–55): $9.78M
 
 Older customers generated the highest revenue and represent the most valuable customer segment.
 
-5. Regional Marketing Expansion Produced Positive Results
+
+6. Regional Marketing Expansion Produced Positive Results
 
 The profit distribution map highlights strong performance across key states including:
 
 California
+
 Texas
+
 Illinois
+
 Georgia
+
 Washington
 
 This suggests regional marketing efforts successfully expanded market reach beyond traditional territories.
+
 
 6. Strong Weekly Profit Trends
 
 Profit remained consistently above $0.8M throughout Q4 and peaked multiple times above $1.5M.
 
 This indicates sustained business performance rather than a short-lived sales spike.
+
 
 7. Customer Concentration Remains Important
 
@@ -290,48 +319,45 @@ The top five customers each generated over $2.4M in revenue.
 This presents opportunities for:
 
 VIP retention programs
+
 Personalized offers
+
 Strategic account management
 
 
 ## RECOMMENDATIONS
-Expand High-Performing Categories
+
+- Expand High-Performing Categories
 
 Increase inventory investment in:
 
-Accessories
-Gym Products
-Games
-Sports Equipment
+Accessories, Gym Products, Games, and Sports Equipment.
 
 These categories generated the strongest profitability.
 
-Strengthen Customer Retention Programs
+
+- Strengthen Customer Retention Programs
 
 Develop:
 
-Loyalty rewards
-Personalized promotions
-VIP customer programs
+Loyalty rewards, Personalized promotions, and VIP customer programs to retain top-value customers.
 
-to retain top-value customers.
 
-Scale Regional Marketing Efforts
+- Scale Regional Marketing Efforts
 
 Increase marketing spend in high-performing states while replicating successful campaigns in emerging markets.
 
-Optimize Product Portfolio
+
+- Optimize Product Portfolio
 
 Reduce focus on lower-performing products and prioritize inventory allocation toward high-margin categories.
 
-Leverage Demographic Insights
+
+- Leverage Demographic Insights
 
 Design targeted campaigns for:
 
-Female shoppers
-Customers aged 36–55
-
-who currently generate the highest value.
+Female shoppers and Customers aged 36–55 who currently generate the highest value.
 
 
 ## BUSINESS IMPACT
