@@ -5,7 +5,7 @@
 ![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/group-people-working-out-business-plan-office.jpg?raw=true)
 
 
-***Disclaimer⚠️:** All datasets, slides and reports do not contain real proprietary, confidential, or sensitive information from any company, institution, or individual mention. All info are dummy and design to demonstrate my capabilities of using PowerBI to perform advance analysis on healthcare dataset*
+***Disclaimer⚠️:** All datasets, slides and reports do not contain real proprietary, confidential, or sensitive information from any company, institution, or individual mention. All info are dummy and design to demonstrate my capabilities of using Microsoft Excel to perform advance analysis on a sales transaction dataset*
 
 
 
