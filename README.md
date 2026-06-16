@@ -124,8 +124,8 @@ Below are the exact tasks, formulas, and screenshot targets
 
 1. Removed duplicates
    
-The dataset was made up of three different tables (Orders, Customers and Products). Duplicated values were removed from each table
-using their respective primary keys; OrderID, CustomerID and ProductID respectively.
+The dataset was made up of three different tables (Orders, Customers, and Products). Duplicated values were removed from 
+each table using their respective primary keys: OrderID, CustomerID, and ProductID, respectively.
 
 Action: Use remove Duplicates from the Data Section in Excel.
 
