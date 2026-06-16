@@ -124,38 +124,38 @@ Below are the exact tasks, formulas, and screenshot targets
 
 1. Removed duplicates
    
-   The dataset was made up of three different tables (Orders, Customers and Products). Duplicated values were removed from each table
-   using their respective primary keys; OrderID, CustomerID and ProductID respectively.
+The dataset was made up of three different tables (Orders, Customers and Products). Duplicated values were removed from each table
+using their respective primary keys; OrderID, CustomerID and ProductID respectively.
 
-   Action: Use remove Duplicates from the Data Section in Excel.
+Action: Use remove Duplicates from the Data Section in Excel.
 
-   ![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/remove%20duplicates.JPG?raw=true)
+![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/remove%20duplicates.JPG?raw=true)
 
 
-   ![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/duplicates%20found.JPG?raw=true)
+![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/duplicates%20found.JPG?raw=true)
 
    
    
 3. Handled missing values
 
-    Missing values from the customers table were handled by removing them.
+Missing values from the customers table were handled by removing them.
 
 4. Converted range to an Excel Table
 
-    Action: Select the range and press Ctrl+T → name the table CleanTable. This enables structured references and slicer connectivity for the dashboard.
+Action: Select the range and press Ctrl+T → name the table CleanTable. This enables structured references and slicer connectivity for the dashboard.
    
 
 6. Standardize Text Columns
 
-   Applied TRIM() to normalize text for CustomerName and City columns.
+Applied TRIM() to normalize text for CustomerName and City columns.
 
-   ![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/standardize.JPG?raw=true)
+![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/standardize.JPG?raw=true)
 
 
 7. Created Expenses and Revenue Columns
    
 
-   Expenses
+Expenses
 
 ![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/Expenses.JPG?raw=true)
 
