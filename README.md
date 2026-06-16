@@ -190,24 +190,24 @@ Pivot Tables were used extensively to summarize and analyze business performance
 
 The analysis focused on:
 
-Sales Performance
-Total Revenue
-Total Expenses
-Total Profit
-Profit Margin
-Weekly Revenue Trends
-Weekly Profit Trends
-Product Performance
-Top 10 Products by Profit
-Profit by Product Category
-Top 5 Products by Quantity Sold
-Customer Insights
-Top 5 Customers by Revenue
-Revenue by Gender
-Revenue by Age Group
-Regional Analysis
-Profit by State
-City-Level Profitability
+ - Sales Performance
+ - Total Revenue
+ - Total Expenses
+ - Total Profit
+ - Profit Margin
+ - Weekly Revenue Trends
+ - Weekly Profit Trends
+ - Product Performance
+ - Top 10 Products by Profit
+ - Profit by Product Category
+ - Top 5 Products by Quantity Sold
+ - Customer Insights
+ - Top 5 Customers by Revenue
+ - Revenue by Gender
+ - Revenue by Age Group
+ - Regional Analysis
+ - Profit by State
+ - City-Level Profitability
 
 
 ![image](https://github.com/joel-adusei/SALIENT-VENTURES-EXCEL-CASESTUDY/blob/main/Images/pivot.JPG?raw=true)
